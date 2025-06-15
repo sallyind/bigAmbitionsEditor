@@ -24,7 +24,7 @@ export default function SaveEditor() {
     const arrayBuffer = await file.arrayBuffer();
     const decompressed = await decompressGzip(arrayBuffer);
 
-    console.log(decompressed); // Sprawdź, co w środku!
+    console.log(decompressed); // Sprawdź, co w środku! aw
 
     const json = JSON.parse(decompressed);
     if(json) {
